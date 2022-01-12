@@ -1,0 +1,123 @@
+INSERT INTO 
+	album(title, released)
+VALUES
+	('The Dark Side of the Moon', 1973),
+	('Abbey Road', 1969),
+	('A Kind of Magic', 1986),
+	('Thriller', 1982),
+	('II', 1969),
+	('Discovery', 2001),
+	('Einaudi.Fly', 2018),
+	('Ye', 2018);
+
+
+INSERT INTO 
+	artist(name)
+VALUES
+	('Pink Floyd'),
+	('The Beatles'),
+	('Queen'),
+	('Michael Jackson'),
+	('Led Zeppelin'),
+	('Daft Punk'),
+	('Dalal'),
+	('Kanye West');
+
+
+INSERT INTO 
+	genre(title)
+VALUES
+	('Rock'), 
+	('Pop'),
+	('Electronic'), 
+	('Classical '),
+	('Hip-Hop');
+	
+
+INSERT INTO 
+	track(album_id, title, duration)
+VALUES
+	(1, 'Time', 6.81),
+	(2, 'Come together', 3.31),
+	(2, 'Something', 3.05),
+	(3, 'Friends Will Be Friends', 4.11),
+	(3, 'One Vision', 5.18),
+	(4, 'The lady in my life', 5.2),
+	(4, 'Beat It', 4.3),
+	(5, 'Heartbreaker', 4.25),
+	(5, 'Moby Dick', 4.35),
+	(6, 'Aerodynamic', 3.45),
+	(6, 'High Life', 3.35),
+	(7, 'Fly', 4.4),
+	(7, 'Le onde', 5.3),
+	(8, 'All mine', 2.41),
+	(8, 'Yikes', 3.13);
+
+
+INSERT INTO 
+	collection(title, released)
+VALUES
+	('First', 1999),
+	('Second', 2004),
+	('Third', 2006),
+	('Fourth', 2008),
+	('Fifth', 2014),
+	('Sixth', 2018),
+	('Seventh', 2019),
+	('Eighth', 2021);
+
+
+INSERT INTO 
+	artistalbum(artist_id, album_id)
+VALUES
+	(1, 1),
+	(2, 2),
+	(3, 3),
+	(4, 4),
+	(5, 5),
+	(6, 6),
+	(7, 7),
+	(8, 8);
+
+																								 
+INSERT INTO 
+	artistgenre(artist_id, genre_id)
+VALUES
+	(1, 1),
+	(2, 2),
+	(3, 1),
+	(4, 2),
+	(5, 1),
+	(6, 3),
+	(7, 4),
+	(8, 5);
+
+
+INSERT INTO 
+	trackcollection(track_id, collection_id)
+VALUES
+	(1, 4),
+ 	(2, 2),
+	(3, 3),
+	(4, 6),
+	(5, 5),
+	(6, 1),
+	(7, 7),
+	(8, 8),
+	(9, 2),
+	(10, 5),
+	(11, 7),
+	(12, 6),
+	(13, 8),
+	(14, 4),
+	(15, 3);
+	
+
+
+INSERT INTO 
+	track(album_id, title, duration)
+VALUES
+	(1, 'On the Run', 3.52),
+	(2, 'Here comes the sun', 3.1),
+	(8, 'Ghost town', 4.51);
+																						 
